@@ -1,7 +1,7 @@
 export const ProjectCard = obj => {
     return `
     <div class="col-4 col-12-medium">
-        <span class="image fit"><img src="${obj.imageFile}" alt="" /></span>
+        <span class="image fit"><img class="pre" src="${obj.imageFile}" alt="" /></span>
         <h3>${obj.name}</h3>
         <p>
             ${obj.description}
